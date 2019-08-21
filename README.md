@@ -10,7 +10,32 @@
 
   
 
-</p>  
+</p>
+
+## Introducción al dojo
+
+El objetivo general de este dojo es familiarizar al lector con los conceptos fundamentales de la nube de IBM y poner en marcha algunas de las herramientas más sencillas y útiles de esta plataforma.  
+
+
+Se realizarán cuatro laboratorios para poner en práctica estos conceptos y verificar la utilidad de la plataforma IBM Cloud.   
+
+
+En el laboratorio 0 se hará un “reconocimiento de terreno” para comenzar a entender la plataforma y los servicios que ofrece. El laboratorio 1 consiste en desplegar una aplicación utilizando Cloud Foundry. En el laboratorio 2, se creará una aplicación utilizando el servicio: “Continuous delivery toolchain”. En el último laboratorio, se estudiará el uso del IBM Cloud Command Line Interface para manejar un servicio de la nube.    
+
+Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
+
+## Índice
+* [**Introducción**](/pages/1#)
+  - [¿Qué es IBM Cloud?](/pages/1#)
+  - [Categorías de servicios](/pages/1#)
+* [**Laboratorio 0: Descubriendo IBM Cloud**](/pages/2#)
+  - [Creación de una cuenta de IBM Cloud](/pages/2#)
+  - [Dashboard](/pages/2#) 
+  - [Menú superior](/pages/2/#) 
+  - [Tipos de cuenta](/pages/2/#)
+  * [**Laboratorio 1: Crear una aplicación a partir de un application starter**](/pages/3#)
+  * [**Laboratorio 2: Crear una aplicación utilizando IBM Cloud Continuous Delivery Toolchains**](/pages/4#)
+  * [**Laboratorio 3: Manejar un servicio a través de IBM Command Line Interface**](/pages/5#)
 
   
 
@@ -29,7 +54,7 @@
 En esta sección intentaremos responder a estas preguntas, dando un marco teórico a los laboratorios que siguen.  
 
   
-
+### ¿Qué es IBM Cloud?
 En 2014, IBM lanzó Bluemix (hoy IBM Cloud): una plataforma que ofrece servicios a través de la red. En esta plataforma, el usuario puede acceder a tres tipos de servicios: infrastructure as a service (IaaS), software as a service (SaaS) y platform as a service (PaaS), pagando únicamente por los recursos que consume. la principal diferencia entre estos servicios es la cantidad de interacción que se tiene con el hardware:   
 
   
@@ -48,57 +73,57 @@ En 2014, IBM lanzó Bluemix (hoy IBM Cloud): una plataforma que ofrece servicios
 
 Si bien la computación en la nube tiene varias desventajas cómo la extrema centralización de los recursos y la dependencia de la conexión a internet, estas limitantes son ampliamente superadas por la escalabilidad, seguridad, fiabilidad y flexibilidad que ofrece esta plataforma.   
 
-  
+### Categorías de servicios
 
 Los servicios ofrecidos por la plataforma IBM Cloud se pueden dividir en las siguientes categorias:  
 
   
 
-* **Computo**: bare-metal servers, virtual servers, serverless computing, contenedores.  
+* **Computo**: bare-metal servers, virtual servers, serverless computing, contenedores
 
   
 
-* **Network**: content delivery network (CDN), virtual private network (VPN) tunnels and firewalls;  
+* **Network**: content delivery network (CDN), virtual private network (VPN) tunnels and firewalls  
 
   
 
-* **Almacenamiento**.  
+* **Almacenamiento**
 
   
 
-* **Seguridad**:  Servicios de seguimiento de actividad e identidad .  
+* **Seguridad**:  Servicios de seguimiento de actividad e identidad 
 
   
 
-* **Manejo de Datos** : Bases de datos SQL y NoSQL. Migraciones.  
+* **Manejo de Datos** : Bases de datos SQL y NoSQL. Migraciones  
 
   
 
-* **Analytics**: Data science (Apache),  IBM Watson Machine Learning.  
+* **Analytics**: Data science (Apache),  IBM Watson Machine Learning  
 
   
 
-* **Inteligencia Artificial**: IBM Watson: Machine learning, natural language processing and visual recognition.  
+* **Inteligencia Artificial**: IBM Watson: Machine learning, natural language processing and visual recognition  
 
   
 
-* **Internet of things (IoT)**:  IBM IoT Platform.  
+* **Internet of things (IoT)**:  IBM IoT Platform 
 
   
 
-* **Developer tools**: CLI, continuous delivery, pipelines.  
+* **Developer tools**: CLI, continuous delivery, pipelines 
 
   
 
-* **Blockchain**:  IBM's Blockchain Platform.  
+* **Blockchain**:  IBM's Blockchain Platform
 
   
 
-* **Integration**:  API Connect, App Connect and IBM Secure Gateway.  
+* **Integration**:  API Connect, App Connect and IBM Secure Gateway  
 
   
 
-* **Migration** :  IBM Lift CLI, Cloud Mass Data Migration.  
+* **Migration** :  IBM Lift CLI, Cloud Mass Data Migration 
 
   
 
@@ -114,21 +139,6 @@ Las clouds flexibilizan, automatizan y simplifican una enorme cantidad de proced
 
   
 
-# Descripción  
-
-  
-
-El objetivo general de este dojo es familiarizar al lector con los conceptos fundamentales de la nube de IBM y poner en marcha algunas de las herramientas más sencillas y útiles de esta plataforma.  
-
-  
-
-Se realizarán cuatro laboratorios para poner en práctica estos conceptos y verificar la utilidad de la plataforma IBM Cloud.   
-
-  
-
-En el laboratorio 0 se hará un “reconocimiento de terreno” para comenzar a entender la plataforma y los servicios que ofrece. El laboratorio 1 consiste en desplegar una aplicación utilizando Cloud Foundry. En el laboratorio 2, se creará una aplicación utilizando el servicio: “Continuous delivery toolchain”. En el último laboratorio, se estudiará el uso del IBM Cloud Command Line Interface para manejar un servicio de la nube.    
-
-  
 
 # Laboratorio 0: Descubriendo IBM Cloud  
 
@@ -140,7 +150,9 @@ Antes de empezar a utilizar los servicios que ofrece IBM Cloud es necesario abri
 
 ### Creación de una cuenta de IBM Cloud 
 
-Esta no tiene costo y es muy sencillo, solo debe seguir los siguientes pasos: 
+Por defecto, IBM Cloud crea una cuenta **"Lite"**, es decir, que esta no tiene costo y te permite utilizar la mayoria de los servicios de la nube, con algunas limitaciones. Más adelante veremos los diferentes [tipos de cuentas]. 
+
+La creación de la cuenta es un procedimiento muy sensillo, solo debe seguir los siguientes pasos: 
 
   
 
@@ -236,14 +248,14 @@ Cada usuario de IBM Cloud puede personalizar su dashboard. Por defecto, allí en
 
 Elemento             | Función 
 ---------------------|---------------------------------------- 
-**Resource summary** | Visualizar los recursos que estan siendo actualmente utilizados en esta cuenta. 
-**Planned maintenance** | Ver los eventos de mantenimiento planificados. 
-**Location status** | Información sobre el estado de los data centres por continente. 
-**Apps** | Historial de apps creadas.  
-**Support cases** | Resumen de los casos de soporte actualmente abiertos.  
-**Usage** | Historial del uso de la cuenta en IBM Cloud. 
-**User access** | Listados los usuarios con acceso a esta cuenta. 
-**Learn** | Acceso a tutoriales e información general acerca de IBM Cloud.  
+**Resource summary** | Visualizar los recursos que estan siendo actualmente utilizados en esta cuenta 
+**Planned maintenance** | Ver los eventos de mantenimiento planificados 
+**Location status** | Información sobre el estado de los data centres por continente 
+**Apps** | Historial de apps creadas. 
+**Support cases** | Resumen de los casos de soporte actualmente abiertos
+**Usage** | Historial del uso de la cuenta en IBM Cloud
+**User access** | Listados los usuarios con acceso a esta cuenta 
+**Learn** | Acceso a tutoriales e información general acerca de IBM Cloud 
 **Recommended offerings** | Recomendaciones de servicios 
 
   
@@ -264,7 +276,7 @@ Otra sección esencial dentro de la página IBM Cloud es el Catálogo. En esta p
 
   
 
-**Lite**: refiere a servicios que tienen una opción de prueba gratuita.  
+**Lite**: refiere a servicios que tienen una opción de prueba gratuita
 
   
 
@@ -295,15 +307,14 @@ Otra sección esencial dentro de la página IBM Cloud es el Catálogo. En esta p
 Desde el menú superior también se puede a acceder a las secciones: **Support**, **Docs** y **Manage**. En **Support** se encuentran las FAQs y las soluciones a los problemas más típicos mientras que en **Doc**s está la documentación de la IBM Cloud, acompañada de algunos tutoriales y guías para poner en marcha algunos servicios básicos. Desde **Manage** podremos administrar y configurar nuestra cuenta. 
 
  
-
+<a name="tiposdecuenta"></a>
 ### Tipos de cuenta 
 
- Es importante saber que hay **tres tipos de cuenta** dentro de IBM Cloud: **Lite**, **Pago según uso** y **Suscripción**. Por defecto, cuando se registra obtiene una cuenta Lite gratuita. En cambio las otras son pagas, ofrecen diferentes características y una experiencia más completa. 
+ Es importante saber que hay **tres tipos de cuenta** dentro de IBM Cloud: **Lite**, **Pago según uso** y **Suscripción**. Como se mencionó anteriormente, cuando se registra obtiene una cuenta Lite gratuita por defecto. En cambio las otras son pagas y ofrecen diferentes características y una experiencia más completa. 
 
  
  
-
-En la siguiente tabla podemos ver la comparación de cada una de las cuentas. 
+En la siguiente tabla podemos ver la comparación de cada uno de los tipos de cuentas. 
 
  
  
@@ -350,25 +361,24 @@ Allí podrá encontrar las dos opciones y elegir la que desee.
 
  
 
-La pagina cuenta con un **cost estimator**, el cual se encuentra en la barra del menú superior que te permite seleccionar los servicios que estimas que vas a utilizar desde el catálogo para así poder pagar verdaderamente de acuerdo a un uso estimado, en el caso de elegir el tipo de cuenta **Pago según uso**. 
+La pagina cuenta con un **cost estimator**, el cual se encuentra en la barra del menú superior. Esta opción te permite seleccionar desde el catálogo los servicios que estimas que vas a utilizar para así poder pagar verdaderamente de acuerdo a tu uso, en el caso de elegir el tipo de cuenta **Pago según uso**. 
 
-Una pequeño resumen de lo que vimos hasta ahora: https://www.youtube.com/watch?v=VXqbRNwXC2A.  
+
+
+
+
+Un pequeño resumen de lo que vimos hasta ahora: https://www.youtube.com/watch?v=VXqbRNwXC2A.  
 
   
 
 ### **IMPORTANTE**: Los siguientes laboratorios son guías detalladas: un paso a paso de algunas funcionalidades simples disponibles en IBM Cloud. Es de vital importancia que **NO** siga ciegamente las instrucciones. Salga del camino, explore desviaciones, equivóquese, borre todo, vuelva a comenzar y vaya hasta el fondo en los conceptos.   
 
-  
-
-  
-
-  
 
 Corto video introductorio al desarrollo en la nube: https://www.youtube.com/watch?time_continue=52&v=Bsy6mhRc7ZA  
 
   
 
-# Laboratorio 1: Crear una aplicación a partir de un *application starter*.  
+# Laboratorio 1: Crear una aplicación a partir de un *application starter*
 
   
 
