@@ -33,9 +33,9 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
   - [Dashboard](/pages/2#) 
   - [Menú superior](/pages/2/#) 
   - [Tipos de cuenta](/pages/2/#)
-  * [**Laboratorio 1: Crear una aplicación a partir de un application starter**](/pages/3#)
-  * [**Laboratorio 2: Crear una aplicación utilizando IBM Cloud Continuous Delivery Toolchains**](/pages/4#)
-  * [**Laboratorio 3: Manejar un servicio a través de IBM Command Line Interface**](/pages/5#)
+ * [**Laboratorio 1: Crear una aplicación a partir de un application starter**](/pages/3#)
+ * [**Laboratorio 2: Crear una aplicación utilizando IBM Cloud Continuous Delivery Toolchains**](/pages/4#)
+ * [**Laboratorio 3: Manejar un servicio a través de IBM Command Line Interface**](/pages/5#)
 
   
 
