@@ -2,7 +2,7 @@
 
 <p align="center"> 
 
-  <img src="images/logo_ibncloud.png" width="500"> 
+  <img src="Images/logo_ibncloud.png" width="500"> 
 
 </p> 
 
@@ -18,7 +18,7 @@ En 2014, IBM lanzó Bluemix (hoy IBM Cloud): una plataforma que ofrece servicios
 
 <p align="center"> 
 
-  <img src="images/modelos_de_cloud.png" width="500"> 
+  <img src="Images/modelos_de_cloud.png" width="500"> 
 
 </p> 
 
@@ -74,7 +74,7 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 <p align="center"> 
 
-  <img src="images/create.png" width="500"> 
+  <img src="Images/create.png" width="500"> 
 
 </p> 
 
@@ -82,7 +82,7 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 <p align="center"> 
 
-  <img src="images/form.png" width="500"> 
+  <img src="Images/form.png" width="500"> 
 
 </p> 
 
@@ -90,7 +90,7 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 <p align="center"> 
 
-  <img src="images/confirm.png" width="500"> 
+  <img src="Images/confirm.png" width="500"> 
 
 </p> 
 
@@ -100,7 +100,7 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 <p align="center"> 
 
-  <img src="images/session.png" width="500"> 
+  <img src="Images/session.png" width="500"> 
 
 </p> 
 
@@ -108,7 +108,7 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 <p align="center"> 
 
-  <img src="images/dashboard.png" width="500"> 
+  <img src="Images/dashboard.png" width="500"> 
 
 </p> 
 
@@ -150,7 +150,7 @@ Cada servicio tiene cuatro posibles etiquetas:
 
 <p align="center"> 
 
-  <img src="images/catalog.png" width="500"> 
+  <img src="Images/catalog.png" width="500"> 
 
 </p> 
 
@@ -174,7 +174,7 @@ Al hacer click en esta, verá un formulario del estilo
 
 <p align="center"> 
 
-  <img src="images/CreateCloudFoundryApp.png" width="500"> 
+  <img src="Images/CreateCloudFoundryApp.png" width="500"> 
 
 </p> 
 
@@ -196,7 +196,7 @@ En Runtime podremos ver la cantidad de instancias actualmente creadas y la canti
 
 <p align="center"> 
 
-  <img src="images/Running.png" width="500"> 
+  <img src="Images/Running.png" width="500"> 
 
 </p> 
 
@@ -204,7 +204,7 @@ En Runtime podremos ver la cantidad de instancias actualmente creadas y la canti
 
 <p align="center"> 
 
-  <img src="images/HelloWorld.png" width="500"> 
+  <img src="Images/HelloWorld.png" width="500"> 
 
 </p> 
 
@@ -220,7 +220,7 @@ Primero, debemos acceder al repositorio http://github.com/ibmecod/nodejs-cloudan
 
 <p align="center"> 
 
-  <img src="images/github.png" width="500"> 
+  <img src="Images/github.png" width="500"> 
 
 </p> 
 
@@ -228,7 +228,7 @@ Haciendo click en el botón Deploy to IBM Cloud se va a crear automáticamente e
 
 <p align="center"> 
 
-  <img src="images/deploy.png" width="500"> 
+  <img src="Images/deploy.png" width="500"> 
 
 </p> 
 
@@ -236,7 +236,7 @@ Haciendo click en el botón Deploy to IBM Cloud se va a crear automáticamente e
 
 <p align="center"> 
 
-  <img src="images/deploy2.png" width="500"> 
+  <img src="Images/deploy2.png" width="500"> 
 
 </p> 
 
@@ -246,7 +246,7 @@ Luego debemos seleccionar la opción Delivery Pipeline de las herramientas de In
 
 <p align="center"> 
 
-  <img src="images/tool integrations.png" width="500"> 
+  <img src="Images/tool integrations.png" width="500"> 
 
 </p> 
 
@@ -254,7 +254,7 @@ Dentro de Delivery Pipeline debemos llenar los siguientes campos
 
 <p align="center"> 
 
-  <img src="images/deliveryPipeline.png" width="500"> 
+  <img src="Images/deliveryPipeline.png" width="500"> 
 
 </p> 
 
@@ -264,7 +264,7 @@ Si no contamos con una IBM Cloud API key, debemos hacer click en el botón Creat
 
 <p align="center"> 
 
-  <img src="images/apikey.png" width="500"> 
+  <img src="Images/apikey.png" width="500"> 
 
 </p> 
 
@@ -274,7 +274,7 @@ Finalmente, hacemos click en el botón Deploy
 
 <p align="center"> 
 
-  <img src="images/toolchains.png" width="500"> 
+  <img src="Images/toolchains.png" width="500"> 
 
 </p> 
 
@@ -284,7 +284,7 @@ Una vez allí, seleccionamos el icono de Delivery Pipeline y una vez que finalic
 
 <p align="center"> 
 
-  <img src="images/aplicacion.png" width="500"> 
+  <img src="Images/aplicacion.png" width="500"> 
 
 </p> 
 
