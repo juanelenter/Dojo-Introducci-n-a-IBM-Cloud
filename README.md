@@ -6,7 +6,7 @@
 
   
 
-  <img src="Images/logo_ibmcloud.png" width="500">  
+  <img src="Images/logo.png" width="500">  
 
   
 
