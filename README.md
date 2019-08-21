@@ -6,7 +6,7 @@
 
   
 
-  <img src="Images/logo.png" width="500">  
+  <img src="Images/logo.png" width="700">  
 
   
 
@@ -63,7 +63,7 @@ En 2014, IBM lanzó Bluemix (hoy IBM Cloud): una plataforma que ofrece servicios
 
   
 
-  <img src="Images/modelos_de_cloud.png" width="700">  
+  <img src="Images/modelos_de_cloud.png" width="400">  
 
   
 
