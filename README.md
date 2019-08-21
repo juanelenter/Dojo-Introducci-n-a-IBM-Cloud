@@ -74,7 +74,7 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 <p align="center"> 
 
-  <img src="Images/create.png" width="500"> 
+  <img src="Images/create.PNG" width="500"> 
 
 </p> 
 
@@ -108,7 +108,7 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 <p align="center"> 
 
-  <img src="Images/dashboard.png" width="500"> 
+  <img src="Images/dashboard.PNG" width="500"> 
 
 </p> 
 
@@ -174,7 +174,7 @@ Al hacer click en esta, verá un formulario del estilo
 
 <p align="center"> 
 
-  <img src="Images/CreateCloudFoundryApp.png" width="500"> 
+  <img src="Images/CreateCloudFoundryApp.PNG" width="500"> 
 
 </p> 
 
@@ -196,7 +196,7 @@ En Runtime podremos ver la cantidad de instancias actualmente creadas y la canti
 
 <p align="center"> 
 
-  <img src="Images/Running.png" width="500"> 
+  <img src="Images/Running.PNG" width="500"> 
 
 </p> 
 
@@ -204,7 +204,7 @@ En Runtime podremos ver la cantidad de instancias actualmente creadas y la canti
 
 <p align="center"> 
 
-  <img src="Images/HelloWorld.png" width="500"> 
+  <img src="Images/HelloWorld.PNG" width="500"> 
 
 </p> 
 
@@ -220,7 +220,7 @@ Primero, debemos acceder al repositorio http://github.com/ibmecod/nodejs-cloudan
 
 <p align="center"> 
 
-  <img src="Images/github.png" width="500"> 
+  <img src="Images/github.PNG" width="500"> 
 
 </p> 
 
@@ -228,7 +228,7 @@ Haciendo click en el botón Deploy to IBM Cloud se va a crear automáticamente e
 
 <p align="center"> 
 
-  <img src="Images/deploy.png" width="500"> 
+  <img src="Images/deploy.PNG" width="500"> 
 
 </p> 
 
@@ -236,7 +236,7 @@ Haciendo click en el botón Deploy to IBM Cloud se va a crear automáticamente e
 
 <p align="center"> 
 
-  <img src="Images/deploy2.png" width="500"> 
+  <img src="Images/deploy2.PNG" width="500"> 
 
 </p> 
 
@@ -246,7 +246,7 @@ Luego debemos seleccionar la opción Delivery Pipeline de las herramientas de In
 
 <p align="center"> 
 
-  <img src="Images/tool integrations.png" width="500"> 
+  <img src="Images/tool integrations.PNG" width="500"> 
 
 </p> 
 
@@ -254,7 +254,7 @@ Dentro de Delivery Pipeline debemos llenar los siguientes campos
 
 <p align="center"> 
 
-  <img src="Images/deliveryPipeline.png" width="500"> 
+  <img src="Images/deliveryPipeline.PNG" width="500"> 
 
 </p> 
 
@@ -264,7 +264,7 @@ Si no contamos con una IBM Cloud API key, debemos hacer click en el botón Creat
 
 <p align="center"> 
 
-  <img src="Images/apikey.png" width="500"> 
+  <img src="Images/apikey.PNG" width="500"> 
 
 </p> 
 
@@ -274,7 +274,7 @@ Finalmente, hacemos click en el botón Deploy
 
 <p align="center"> 
 
-  <img src="Images/toolchains.png" width="500"> 
+  <img src="Images/toolchains.PNG" width="500"> 
 
 </p> 
 
@@ -284,7 +284,7 @@ Una vez allí, seleccionamos el icono de Delivery Pipeline y una vez que finalic
 
 <p align="center"> 
 
-  <img src="Images/aplicacion.png" width="500"> 
+  <img src="Images/aplicacion.PNG" width="500"> 
 
 </p> 
 
