@@ -63,7 +63,7 @@ En 2014, IBM lanzó Bluemix (hoy IBM Cloud): una plataforma que ofrece servicios
 
   
 
-  <img src="Images/modelos_de_cloud.png" width="500">  
+  <img src="Images/modelos_de_cloud.png" width="700">  
 
   
 
@@ -698,7 +698,7 @@ Una vez desplegada la aplicación entre a su cuenta de ibm y vaya a “Resource 
 
 <p align="center">   
 
-  <img src="Images/cli_app.PNG" width="500">   
+  <img src="Images/cli_app.PNG" width="700">   
 
 </p>   
 
@@ -710,7 +710,7 @@ Para seguir profundizando: https://www.youtube.com/watch?v=z-ByHuI41dU.
 
 # Conclusiones 
 
-  
+Esperamos que este dojo les haya sido útil para dar sus primeros pasos en IBM Cloud. Probablemente hayan notado que es una plataforma inmensa, con 190 servicios y mucho por explorar. A continuación, les brindamos algunos links para profundizar su conocimiento, asi como también les recomendamos realizar los tutoriales disponibles directamente en la plataforma de IBM Cloud.  
 
   
 
