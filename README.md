@@ -6,7 +6,7 @@
 
   
 
-  <img src="Images/logo.png" width="700">  
+  <img src="Images/logo.webp" width="700">  
 
   
 
