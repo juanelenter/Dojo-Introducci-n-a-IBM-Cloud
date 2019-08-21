@@ -305,7 +305,7 @@ En la siguiente tabla podemos ver la comparación de cada una de las cuentas.
  
  
 
-  <img src="Images/suscripciones.png" width="500">  
+  <img src="Images/suscripciones.PNG" width="500">  
 
  
  
@@ -330,12 +330,8 @@ Allí podrá encontrar las dos opciones y elegir la que desee.
  
 <p align="center">  
 
- 
- 
 
-  <img src="Images/suscripciones.png" width="500">  
-
- 
+  <img src="Images/upgrade.PNG" width="500">  
  
 
 </p> 
