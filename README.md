@@ -6,12 +6,13 @@
 
   
 
-  <img src="Images/logo.webp" width="700">  
+  <img src="Images/logo.webp" width="600">  
 
   
 
 </p>
 
+[← Volver al índice](/././README.md)
 ## Introducción al dojo
 
 El objetivo general de este dojo es familiarizar al lector con los conceptos fundamentales de la nube de IBM y poner en marcha algunas de las herramientas más sencillas y útiles de esta plataforma.  
@@ -656,7 +657,22 @@ A continuación, se detallan los simples pasos que hay que seguir para desplegar
 
   
 
-* Ingrese a su usuario con el comando "ibmcloud login -a https://api.ng.bluemix.net".  
+* Ingrese a su usuario con el siguiente comando 
+
+```
+ibmcloud login -a https://api.ng.bluemix.net 
+```
+  
+
+  
+
+  
+
+* Cree un instancia del servicio **"Cloudant Database"** con el siguiente comando 
+
+```
+imbcloud service offerings
+```
 
   
 
@@ -664,7 +680,11 @@ A continuación, se detallan los simples pasos que hay que seguir para desplegar
 
   
 
-* Cree un instancia del servicio **"Cloudant Database"** con el comando imbcloud service offerings".   
+* Cree una instancia del **"Cloudant NoSQL database"** con el siguiente comando 
+
+```
+ibmcloud service create cloudantNoSQLDB Lite myCloudantDB
+```
 
   
 
@@ -672,27 +692,31 @@ A continuación, se detallan los simples pasos que hay que seguir para desplegar
 
   
 
-* Cree una instancia del **"Cloudant NoSQL database"** con el comando: "ibmcloud service create cloudantNoSQLDB Lite myCloudantDB"   
+* Haga un "push" a la nube de su aplicación con el siguiente comando:
 
-  
-
-  
-
-  
-
-* Haga un "push" a la nube de su aplicación con el siguiente comando: "ibmcloud app push favapp-tor-0517 -c "node app.js" -m 128M --no-manifest --no-start"  
+```
+ibmcloud app push favapp-tor-0517 -c "node app.js" -m 128M --no-manifest --no-start
+```
 
   
 
  Se le denomina “bind” a la asociación de dos o más programas. 
 
-* Efectuar un bind del servicio a la aplicación (reemplace favapp-tor-05017 por el nombre que le quiera dar a su aplicación): "ibmcloud service bind favapp-tor-0517 myCloudantDB"  
+* Efectuar un bind del servicio a la aplicación (reemplace favapp-tor-05017 por el nombre que le quiera dar a su aplicación): 
+
+```
+ibmcloud service bind favapp-tor-0517 myCloudantDB
+```
 
   
 
   
 
-* Lance la aplicación: "ibmcloud app start favapp-tor-0517"  
+* Lance la aplicación: 
+
+```
+ibmcloud app start favapp-tor-0517
+```
 
 Una vez desplegada la aplicación entre a su cuenta de ibm y vaya a “Resource list”, bajo Cloud Foundry apps debería aparecer su aplicación.  
 
