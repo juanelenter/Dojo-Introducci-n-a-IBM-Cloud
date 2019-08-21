@@ -341,7 +341,7 @@ Allí podrá encontrar las dos opciones y elegir la que desee.
  
  
 
-  <img src="Images/suscripciones.PNG" width="500">  
+  <img src="Images/upgrade.PNG" width="500">  
 
  
  
