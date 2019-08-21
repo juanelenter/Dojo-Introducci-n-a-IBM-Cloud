@@ -114,21 +114,16 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 Cada usuario de IBM Cloud puede personalizar su dashboard. Por defecto, allí encontraremos los siguientes elementos: 
 
-**Resource summary**:  donde podrás visualizar los recursos que actualmente estás utilizando 
-
-**Planned maintenance**: donde se podrá ver los eventos de mantenimiento planificados 
-
-**Location status**: donde se puede ver el estado de los data centres por continente. Si actualmente hay algun problema , ya sea en mantenimiento o investigación, se podrá ver una alerta. Si no, verá un tick verde al lado del nombre del continente. 
-
-**Apps**: donde se ven el historial de apps creadas. 
-
-**Support cases**: donde podrás encontrar un resumen de los casos de soporte actualmente abiertos. 
-
-**Usage**, donde encontrarás un historial del uso de tu cuenta en IBM Cloud 
-
-**User access**: donde se ven listados los usuarios que tienen acceso a esta cuenta. 
-
-**Learn**: donde podrá acceder a tutoriales e información general acerca de IBM Cloud. 
+Elemento             | Función
+---------------------|----------------------------------------
+**Resource summary** | Visualizar los recursos que actuales .
+**Planned maintenance** | Ver los eventos de mantenimiento planificados.
+**Location status** | Información sobre el estado de los data centres por continente.
+**Apps** | Historial de apps creadas. 
+**Support cases** | donde podrás encontrar un resumen de los casos de soporte actualmente abiertos. 
+**Usage** | Historial del uso de tu cuenta en IBM Cloud.
+**User access** | Listados los usuarios con a esta cuenta. 
+**Learn** | Accedeso a tutoriales e información general acerca de IBM Cloud. 
 
  
 
@@ -208,9 +203,7 @@ En Runtime podremos ver la cantidad de instancias actualmente creadas y la canti
 
 </p> 
 
- 
-
- 
+  
 
 # Laboratorio 2: Crear una aplicación utilizando *IBM Cloud Continuous Delivery Toolchains* 
 
@@ -325,6 +318,9 @@ A continuación, se detallan los simples pasos que hay que seguir para desplegar
  
  * Lance la aplicación: "ibmcloud app start favapp-tor-0517" 
 
+ Para seguir profundizando en el uso de IBM CLI: https://www.youtube.com/watch?v=z-ByHuI41dU.
+ 
+ # Conclusiones
  
 
  
