@@ -235,34 +235,16 @@ Cada usuario de IBM Cloud puede personalizar su dashboard. Por defecto, allí en
   
 
 Elemento             | Función 
-
----------------------|---------------------------------------- 
-
+---------------------|----------------------------------------
 **Resource summary** | Visualizar los recursos que estan siendo actualmente utilizados en esta cuenta. 
-
 **Planned maintenance** | Ver los eventos de mantenimiento planificados. 
-
 **Location status** | Información sobre el estado de los data centres por continente. 
-
 **Apps** | Historial de apps creadas.  
-
-**Support cases** | Resumen de los casos de soporte actualmente abiertos.  
-
+**Support cases** | Resumen de los casos de soporte actualmente abiertos. 
 **Usage** | Historial del uso de la cuenta en IBM Cloud. 
-
 **User access** | Listados los usuarios con acceso a esta cuenta.  
-
 **Learn** | Acceso a tutoriales e información general acerca de IBM Cloud.  
-
 **Recommended offerings** | Recomendaciones de servicios 
-
-  
-
-  
-
-  
-
-  
 
   
 
