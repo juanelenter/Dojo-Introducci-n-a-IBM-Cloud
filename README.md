@@ -294,6 +294,7 @@ Una vez allí, seleccionamos el icono de Delivery Pipeline y una vez que finalic
 
 # Laboratorio 3: Manejar un servicio a través de IBM Command Line Interface 
 
+Además de tener la interfaz web, los servicios de la nube se pueden manejar desde una terminal. La herramienta de IBM para realizar esta tarea es IBM CLI.
 A continuación, se detallan los simples pasos que hay que seguir para desplegar una aplicación desde la terminal. 
 
 * Descargar el repositorio de la aplicación de ejemplo a través del siguiente link  http://github.com/ibmecod/nodejs-cloudant y guardarlo en una nueva carpeta. 
@@ -319,10 +320,10 @@ A continuación, se detallan los simples pasos que hay que seguir para desplegar
 * Haga un "push" a la nube de su aplicación con el siguiente comando: "ibmcloud app push favapp-tor-0517 -c "node app.js" -m 128M --no-manifest --no-start" 
 
  
-* Bind el servicio a la aplicación: "ibmcloud service bind favapp-tor-0517 myCloudantDB" 
+* Asociar el servicio a la aplicación (se le denomina "bind" a la asociación de dos o mas programas): "ibmcloud service bind favapp-tor-0517 myCloudantDB" 
 
  
- * Lance la aplicación: "bx app start favapp-tor-0517" 
+ * Lance la aplicación: "ibmcloud app start favapp-tor-0517" 
 
  
 
