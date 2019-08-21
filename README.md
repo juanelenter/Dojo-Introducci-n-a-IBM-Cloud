@@ -2,7 +2,7 @@
 
 <p align="center"> 
 
-  <img src="Images/logo_ibncloud.png" width="500"> 
+  <img src="Images/logo_ibmcloud.png" width="500"> 
 
 </p> 
 
