@@ -82,7 +82,7 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 <p align="center"> 
 
-  <img src="Images/form.png" width="500"> 
+  <img src="Images/form.PNG" width="500"> 
 
 </p> 
 
@@ -90,7 +90,7 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 <p align="center"> 
 
-  <img src="Images/confirm.png" width="500"> 
+  <img src="Images/confirm.PNG" width="500"> 
 
 </p> 
 
@@ -100,7 +100,7 @@ Crear una cuenta no tiene costo y es muy sencillo:
 
 <p align="center"> 
 
-  <img src="Images/session.png" width="500"> 
+  <img src="Images/session.PNG" width="500"> 
 
 </p> 
 
