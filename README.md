@@ -1,4 +1,4 @@
-## Dojo Introducción a IBM Cloud   
+## Introducción a IBM Cloud - Dojo  
 
   
 
@@ -180,7 +180,7 @@ La creación de la cuenta es un procedimiento muy sensillo, solo debe seguir los
 
   
 
-  <img src="Images/form.PNG" width="500">  
+  <img src="Images/form.PNG" width="700">  
 
   
 
@@ -196,7 +196,7 @@ La creación de la cuenta es un procedimiento muy sensillo, solo debe seguir los
 
   
 
-  <img src="Images/confirm.png" width="500">  
+  <img src="Images/confirm.png" width="700">  
 
   
 
@@ -216,7 +216,7 @@ La creación de la cuenta es un procedimiento muy sensillo, solo debe seguir los
 
   
 
-  <img src="Images/session.png" width="500">  
+  <img src="Images/session.png" width="700">  
 
   
 
@@ -234,7 +234,7 @@ Lo primero que verá una vez iniciada la sesión será un Dashboard.
 
   
 
-  <img src="Images/dashboard.PNG" width="500">  
+  <img src="Images/dashboard.PNG" width="700">  
 
   
 
@@ -296,7 +296,7 @@ Otra sección esencial dentro de la página IBM Cloud es el Catálogo. En esta p
 
   
 
-  <img src="Images/catalog.png" width="500">  
+  <img src="Images/catalog.png" width="700">  
 
   
 
@@ -324,7 +324,7 @@ En la siguiente tabla podemos ver la comparación de cada uno de los tipos de cu
  
  
 
-  <img src="Images/suscripciones.PNG" width="500">  
+  <img src="Images/suscripciones.PNG" width="700">  
 
  
  
@@ -352,7 +352,7 @@ Allí podrá encontrar las dos opciones y elegir la que desee.
  
  
 
-  <img src="Images/upgrade.PNG" width="500">  
+  <img src="Images/upgrade.PNG" width="700">  
 
  
  
@@ -398,7 +398,7 @@ Al hacer click en esta, verá un formulario del estilo
 
   
 
-  <img src="Images/CreateCloudFoundryApp.PNG" width="500">  
+  <img src="Images/CreateCloudFoundryApp.PNG" width="700">  
 
   
 
@@ -430,7 +430,7 @@ Además, la sección Logs te da la posibilidad de ver los mensajes mientras la a
 
   
 
-  <img src="Images/Running.PNG" width="500">  
+  <img src="Images/Running.PNG" width="700">  
 
   
 
@@ -448,7 +448,7 @@ Una vez que la aplicación ya está andando (pasó del estado Starting a Running
 
   
 
-  <img src="Images/HelloWorld.PNG" width="500">  
+  <img src="Images/HelloWorld.PNG" width="700">  
 
   
 
@@ -476,7 +476,7 @@ Primero, debemos acceder al repositorio http://github.com/ibmecod/nodejs-cloudan
 
   
 
-  <img src="Images/github.PNG" width="500">  
+  <img src="Images/github.PNG" width="700">  
 
   
 
@@ -492,7 +492,7 @@ Haciendo click en el botón **Deploy to IBM Cloud** se va a crear automáticamen
 
   
 
-  <img src="Images/deploy.PNG" width="500">  
+  <img src="Images/deploy.PNG" width="700">  
 
   
 
@@ -508,7 +508,7 @@ Haciendo click en el botón **Deploy to IBM Cloud** se va a crear automáticamen
 
   
 
-  <img src="Images/deploy2.PNG" width="500">  
+  <img src="Images/deploy2.PNG" width="700">  
 
   
 
@@ -528,7 +528,7 @@ Luego debemos seleccionar la opción **Delivery Pipeline** de las herramientas d
 
   
 
-  <img src="Images/tool integrations.PNG" width="500">  
+  <img src="Images/tool integrations.PNG" width="700">  
 
   
 
@@ -544,7 +544,7 @@ Dentro de Delivery Pipeline debemos llenar los siguientes campos
 
   
 
-  <img src="Images/deliveryPipeline.PNG" width="500">  
+  <img src="Images/deliveryPipeline.PNG" width="700">  
 
   
 
@@ -562,7 +562,7 @@ Dentro de Delivery Pipeline debemos llenar los siguientes campos
 
   
 
-  <img src="Images/apikey.PNG" width="500">  
+  <img src="Images/apikey.PNG" width="700">  
 
   
 
@@ -582,7 +582,7 @@ Finalmente, hacemos click en el botón Deploy
 
   
 
-  <img src="Images/toolchains.PNG" width="500">  
+  <img src="Images/toolchains.PNG" width="700">  
 
   
 
@@ -600,7 +600,7 @@ Una vez allí, seleccionamos el icono de **Delivery Pipeline** y una vez que fin
 
   
 
-  <img src="Images/deploystage.PNG" width="500">  
+  <img src="Images/deploystage.PNG" width="700">  
 
   
 
@@ -614,7 +614,7 @@ Una vez allí, seleccionamos el icono de **Delivery Pipeline** y una vez que fin
 
   
 
-  <img src="Images/aplicacion.PNG" width="500">  
+  <img src="Images/aplicacion.PNG" width="700">  
 
   
 
