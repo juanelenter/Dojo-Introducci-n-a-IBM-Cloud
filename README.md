@@ -296,27 +296,27 @@ Una vez allí, seleccionamos el icono de Delivery Pipeline y una vez que finalic
 
 A continuación, se detallan los simples pasos que hay que seguir para desplegar una aplicación desde la terminal. 
 
-Descargar el repositorio de la aplicación de ejemplo a través del siguiente link  http://github.com/ibmecod/nodejs-cloudant y guardarlo en una nueva carpeta. 
+* Descargar el repositorio de la aplicación de ejemplo a través del siguiente link  http://github.com/ibmecod/nodejs-cloudant y guardarlo en una nueva carpeta. 
 
  
 
-Abrir una terminal y navegar hasta la carpeta con los archivos de la aplicación de ejemplo. 
+* Abrir una terminal y navegar hasta la carpeta con los archivos de la aplicación de ejemplo. 
 
  
 
-Ingrese a su usuario con el comando "ibmcloud login -a https://api.ng.bluemix.net". 
+* Ingrese a su usuario con el comando "ibmcloud login -a https://api.ng.bluemix.net". 
 
  
 
-Cree un instancia del servicio "Cloudant Database" con el comando imbcloud service offerings".  
+* Cree un instancia del servicio "Cloudant Database" con el comando imbcloud service offerings".  
 
  
 
-Cree una instancia del "Cloudant NoSQL database" con el comando: "ibmcloud service create cloudantNoSQLDB Lite myCloudantDB"  
+* Cree una instancia del "Cloudant NoSQL database" con el comando: "ibmcloud service create cloudantNoSQLDB Lite myCloudantDB"  
 
  
 
-Haga un "push" a la nube de su aplicación con el siguiente comando: "ibmcloud app push favapp-tor-0517 -c "node app.js" -m 128M --no-manifest --no-start" 
+* Haga un "push" a la nube de su aplicación con el siguiente comando: "ibmcloud app push favapp-tor-0517 -c "node app.js" -m 128M --no-manifest --no-start" 
 
  
 
