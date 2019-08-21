@@ -474,7 +474,7 @@ Primero, debemos acceder al repositorio http://github.com/ibmecod/nodejs-cloudan
 
   
 
-Haciendo click en el botón Deploy to IBM Cloud se va a crear automáticamente en el entorno de IBM Cloud.  
+Haciendo click en el botón **Deploy to IBM Cloud** se va a crear automáticamente en el entorno de IBM Cloud.  
 
   
 
@@ -506,7 +506,7 @@ Haciendo click en el botón Deploy to IBM Cloud se va a crear automáticamente e
 
   
 
-Luego debemos seleccionar la opción Delivery Pipeline de las herramientas de Integración  
+Luego debemos seleccionar la opción **Delivery Pipeline** de las herramientas de Integración  
 
   
 
@@ -544,7 +544,7 @@ Dentro de Delivery Pipeline debemos llenar los siguientes campos
 
   
 
- Si no contamos con una IBM Cloud API key, debemos hacer click en el botón Create la cual nos creará una API key automáticamente.  
+ Si no contamos con una **IBM Cloud API key**, debemos hacer click en el botón Create la cual nos creará una API key automáticamente.  
 
   
 
@@ -580,7 +580,7 @@ Finalmente, hacemos click en el botón Deploy
 
   
 
-Una vez allí, seleccionamos el icono de Delivery Pipeline y una vez que finalice la Deploy Stage (estado: Stage Passed), tendremos el link para acceder a nuestra aplicación  
+Una vez allí, seleccionamos el icono de **Delivery Pipeline** y una vez que finalice la **Deploy Stage** (estado: Stage Passed), tendremos el link para acceder a nuestra aplicación  
 
   
 
@@ -654,7 +654,7 @@ A continuación, se detallan los simples pasos que hay que seguir para desplegar
 
   
 
-* Cree un instancia del servicio "Cloudant Database" con el comando imbcloud service offerings".   
+* Cree un instancia del servicio **"Cloudant Database"** con el comando imbcloud service offerings".   
 
   
 
@@ -662,7 +662,7 @@ A continuación, se detallan los simples pasos que hay que seguir para desplegar
 
   
 
-* Cree una instancia del "Cloudant NoSQL database" con el comando: "ibmcloud service create cloudantNoSQLDB Lite myCloudantDB"   
+* Cree una instancia del **"Cloudant NoSQL database"** con el comando: "ibmcloud service create cloudantNoSQLDB Lite myCloudantDB"   
 
   
 
