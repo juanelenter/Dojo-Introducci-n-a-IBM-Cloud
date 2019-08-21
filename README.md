@@ -116,7 +116,7 @@ Cada usuario de IBM Cloud puede personalizar su dashboard. Por defecto, allí en
 
 **Resource summary**:  donde podrás visualizar los recursos que actualmente estás utilizando 
 
-Planned maintenance, donde se podrá ver los eventos de mantenimiento planificados 
+**Planned maintenance**: donde se podrá ver los eventos de mantenimiento planificados 
 
 **Location status**: donde se puede ver el estado de los data centres por continente. Si actualmente hay algun problema , ya sea en mantenimiento o investigación, se podrá ver una alerta. Si no, verá un tick verde al lado del nombre del continente. 
 
@@ -131,6 +131,8 @@ Planned maintenance, donde se podrá ver los eventos de mantenimiento planificad
 **Learn**: donde podrá acceder a tutoriales e información general acerca de IBM Cloud. 
 
  
+
+
 
 Una sección esencial dentro de la página IBM Cloud es el Catálogo.  
 
