@@ -319,12 +319,10 @@ A continuación, se detallan los simples pasos que hay que seguir para desplegar
 * Haga un "push" a la nube de su aplicación con el siguiente comando: "ibmcloud app push favapp-tor-0517 -c "node app.js" -m 128M --no-manifest --no-start" 
 
  
-
- Bind el servicio a la aplicación: "ibmcloud service bind favapp-tor-0517 myCloudantDB" 
+* Bind el servicio a la aplicación: "ibmcloud service bind favapp-tor-0517 myCloudantDB" 
 
  
-
- Lance la aplicación: "bx app start favapp-tor-0517" 
+ * Lance la aplicación: "bx app start favapp-tor-0517" 
 
  
 
