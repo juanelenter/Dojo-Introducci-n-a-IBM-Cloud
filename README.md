@@ -151,9 +151,9 @@ Antes de empezar a utilizar los servicios que ofrece IBM Cloud es necesario abri
 
 ### Creación de una cuenta de IBM Cloud 
 
-Por defecto, IBM Cloud crea una cuenta **"Lite"**, es decir, que esta no tiene costo y te permite utilizar la mayoria de los servicios de la nube, con algunas limitaciones. Más adelante veremos los diferentes [tipos de cuentas]. 
+Por defecto, IBM Cloud crea una cuenta **"Lite"**. Este tipo de cuenta no tiene costo y te permite utilizar la mayoria de los servicios de la nube, con algunas limitaciones. Más adelante veremos los diferentes [tipos de cuentas]. 
 
-La creación de la cuenta es un procedimiento muy sensillo, solo debe seguir los siguientes pasos: 
+La creación de la cuenta es un procedimiento muy sencillo: 
 
   
 
@@ -273,7 +273,7 @@ Elemento             | Función
 
  
 
-Otra sección esencial dentro de la página IBM Cloud es el Catálogo. En esta podremos encontrar todos los servicios que ofrece la nube, separadas en categorías.  Cada servicio tiene cuatro posibles etiquetas:  
+Otra sección esencial dentro de la página IBM Cloud es el Catálogo. En esta podremos encontrar todos los servicios que ofrece la nube, separados en categorías.  Cada servicio tiene cuatro posibles etiquetas:  
 
   
 
@@ -289,7 +289,7 @@ Otra sección esencial dentro de la página IBM Cloud es el Catálogo. En esta p
 
   
 
-**IAM enabled**: refieren a los servicios que siguen el protocolo IAM autentificación y control de acceso a los recursos en la nube. (IAM = Identity and Access Management). (Para comprender en profundidad el funcionamiento del servicio IAM visitar el siguiente link: https://cloud.ibm.com/docs/iam?topic=iam-userroles&locale=en-us.)  
+**IAM enabled**: refieren a los servicios que siguen el protocolo IAM de autentificación y control de acceso a los recursos en la nube. (IAM = Identity and Access Management). (Para comprender en profundidad el funcionamiento del servicio IAM visitar el siguiente link: https://cloud.ibm.com/docs/iam?topic=iam-userroles&locale=en-us.)  
 
   
 
@@ -311,11 +311,11 @@ Desde el menú superior también se puede a acceder a las secciones: **Support**
 <a name="tiposdecuenta"></a>
 ### Tipos de cuenta 
 
- Es importante saber que hay **tres tipos de cuenta** dentro de IBM Cloud: **Lite**, **Pago según uso** y **Suscripción**. Como se mencionó anteriormente, cuando se registra obtiene una cuenta Lite gratuita por defecto. En cambio las otras son pagas y ofrecen diferentes características y una experiencia más completa. 
+ Es importante saber que hay **tres tipos de cuenta** dentro de IBM Cloud: **Lite**, **Pago según uso** y **Suscripción**. Como se mencionó anteriormente, al registrarse, Lite es la opción gratuita por defecto. En cambio, las otras dos son pagas, ofrecen diferentes características y una experiencia más completa. 
 
  
  
-En la siguiente tabla podemos ver la comparación de cada uno de los tipos de cuentas. 
+En la siguiente tabla podemos ver la comparación entre los tipos de cuentas. 
 
  
  
@@ -343,7 +343,7 @@ En la siguiente tabla podemos ver la comparación de cada uno de los tipos de cu
 Para actualizar la cuenta a una de **Pago según uso** o **Suscripción**: 
  
 
-Vaya a Manage > Account > Account settings 
+Vaya a Manage > Account > Account settings.
 
 Allí podrá encontrar las dos opciones y elegir la que desee. 
 
@@ -362,7 +362,7 @@ Allí podrá encontrar las dos opciones y elegir la que desee.
 
  
 
-La pagina cuenta con un **cost estimator**, el cual se encuentra en la barra del menú superior. Esta opción te permite seleccionar desde el catálogo los servicios que estimas que vas a utilizar para así poder pagar verdaderamente de acuerdo a tu uso, en el caso de elegir el tipo de cuenta **Pago según uso**. 
+La pagina cuenta con un **cost estimator**, el cual se encuentra en la barra del menú superior. Esta opción permite seleccionar, desde el catálogo, los servicios que estimas que utilizarás para así poder pagar de acuerdo al uso, en el caso de una cuenta **Pago según uso**. 
 
 
 
@@ -734,7 +734,9 @@ Para seguir profundizando: https://www.youtube.com/watch?v=z-ByHuI41dU.
 
 # Conclusiones 
 
-Esperamos que este dojo les haya sido útil para dar sus primeros pasos en IBM Cloud. Probablemente hayan notado que es una plataforma inmensa, con 190 servicios y mucho por explorar. A continuación, les brindamos algunos links para profundizar su conocimiento, asi como también les recomendamos realizar los tutoriales disponibles directamente en la plataforma de IBM Cloud.  
+Esperamos que este dojo les haya sido útil para dar sus primeros pasos en IBM Cloud. Probablemente hayan notado que es una plataforma inmensa, con 190 servicios y mucho por explorar. 
+
+A continuación, les brindamos algunos links para profundizar su conocimiento. También recomendamos realizar los tutoriales disponibles directamente en la plataforma de IBM Cloud.
 
   
 
