@@ -60,6 +60,8 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   - [Categorías de servicios](/pages/1#) 
 
+  - [Regiones](/pages/1#) 
+
 * [**Laboratorio 0: Descubriendo IBM Cloud**](/pages/2#) 
 
   - [Creación de una cuenta de IBM Cloud](/pages/2#) 
@@ -134,7 +136,7 @@ Además, en estos tres tipos de utilización de la nube, el proveedor efectua un
 
   <p align="center">   
 
-   <img src="Images/responsabilities" width="400">   
+   <img src="Images/responsabilities.PNG" width="400">   
 
  </p>   
 
@@ -260,7 +262,7 @@ Comando que muestra tu actual región
 
 ``` 
 
-bx cs region 
+Ibmcloud cs region 
 
 ``` 
 
@@ -268,7 +270,7 @@ Comando para listar las regiones disponibles
 
 ```  
 
-bx cs regions  
+Ibmcloud cs regions  
 
 ``` 
 
@@ -276,7 +278,7 @@ Comando para cambiar de región, donde “regionname” es el nombre de la regi�
 
 ```  
 
-bx cs region-set regionname 
+Ibmcloud cs region-set regionname 
 
 ``` 
 
@@ -786,7 +788,7 @@ En esta sección veremos cómo crear una aplicación utilizando Cloud Foundry. E
 
  <p align="center">   
 
-  <img src="Images/catcf.PNG" width="700">   
+  <img src="Images/catcf.png" width="700">   
 
 </p> 
 
@@ -824,7 +826,7 @@ A modo de ejemplo utilizaremos Liberty for Java, pero puede elegir cualquier opc
 
   <p align="center">   
 
-   <img src="Images/runningcf.PNG" width="700">   
+   <img src="Images/runningcf.png" width="700">   
 
  </p>   
 
@@ -862,7 +864,7 @@ Al finalizar el despliegue de la aplicación (pasó del estado Starting a Runnin
 
 * **Objetivo**:  En esta sección veremos cómo crear una aplicación utilizando IBM Cloud Continuous Delivery Toolchains a partir de un repositorio de GitHub ya existente. Utilizaremos como ejemplo una aplicación construida en NodeJS la cual utiliza una base de datos Cloudant NoSQL para organizar archivos.   
 
-####Introducción:  
+#### Introducción:  
 
 ¿ Qué es **IBM Cloud Continuous Delivery Toolchains** ? ¿ En que contexto se utiliza ?  
 
@@ -888,7 +890,7 @@ Entonces, volviendo a la pregunta inicial, IBM Cloud Continuous Delivery provee 
 
 <p align="center">   
 
-  <img src="Images/deilverytoolchain.png" width="500">   
+  <img src="Images/delIverytoolchain.PNG" width="500">   
 
 </p>   
 
