@@ -76,7 +76,7 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   
 
-* [**Laboratorio 0: Descubriendo IBM Cloud**](#laboratorio-0- descubriendo-ibm-cloud)  
+* [**Laboratorio 0: Descubriendo IBM Cloud**](#laboratorio-0-descubriendo-ibm-cloud)  
 
   
 
@@ -112,7 +112,7 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   
 
-   - [DevOps y Continuous Delivery Toolchains](#devops-y-contiunous-delivery-toolchains)  
+   - [DevOps y Continuous Delivery Toolchains](#devops-y-continuous-delivery-toolchains)  
 
   
 
@@ -120,9 +120,9 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   
 
-* [**Laboratorio 3: Manejar un servicio a través de IBM CLI**](laboratorio-3-manejar-un-servicio-a-través-de-ibm-cli)  
+* [**Laboratorio 3: Manejar un servicio a través de IBM CLI**](#laboratorio-3-manejar-un-servicio-a-través-de-ibm-cli)  
 
-  
+
 
    - [Command Line Interface (CLI)](#command-line-interface-cli)  
 
@@ -838,7 +838,7 @@ Corto video introductorio al desarrollo en la nube: https://www.youtube.com/watc
 
   
 
-# Laboratorio 1: Crear una aplicación a partir de un *application starter* 
+# Laboratorio 1: Crear una aplicación a partir de un application starter
 
 En esta sección veremos cómo crear una aplicación utilizando Cloud Foundry. 
 
@@ -1280,7 +1280,7 @@ En Windows:
 
  
 
-###Desplegar una aplicación desde CLI 
+### Desplegar una aplicación desde CLI 
 
 A continuación, se detallan los simples pasos que hay que seguir para desplegar una aplicación desde la terminal.   
 
