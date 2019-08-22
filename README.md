@@ -26,8 +26,6 @@
 
   
 
-[← Volver al índice](/././README.md) 
-
 ## Introducción al dojo 
 
   
@@ -110,7 +108,7 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   
 
-* [**Laboratorio 2: Crear una aplicación utilizando IBM Cloud Continuous Delivery Toolchains**](#)  
+* [**Laboratorio 2: Crear una aplicación utilizando IBM Cloud Continuous Delivery Toolchains**](#laboratorio-2-crear-una-aplicación-utilizando-ibm-cloud-continuous-delivery-toolchains)  
 
   
 
@@ -122,7 +120,7 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   
 
-* [** Laboratorio 3: Manejar un servicio a través de IBM CLI **](/pages/5#)  
+* [**Laboratorio 3: Manejar un servicio a través de IBM CLI**](laboratorio-3-manejar-un-servicio-a-través-de-ibm-cli)  
 
   
 
@@ -842,7 +840,10 @@ Corto video introductorio al desarrollo en la nube: https://www.youtube.com/watc
 
 # Laboratorio 1: Crear una aplicación a partir de un *application starter* 
 
-En esta sección veremos cómo crear una aplicación utilizando Cloud Foundry. Este es una PaaS (plataforma como servicio), open source y gratuita. Cloud Foundry pone a disposición un entorno preparado para la ejecución de aplicaciones web.   
+En esta sección veremos cómo crear una aplicación utilizando Cloud Foundry. 
+
+### Introducción a Cloud Foundry
+Este es una PaaS (plataforma como servicio), open source y gratuita. Cloud Foundry pone a disposición un entorno preparado para la ejecución de aplicaciones web.   
 
  
 
@@ -862,6 +863,7 @@ Utilizar Cloud Foundry tiene los siguientes beneficios:
 
  
 
+### Creación de la aplicación
 Comencemos con la creación de la aplicación. 
 
  
@@ -942,11 +944,11 @@ Al finalizar el despliegue de la aplicación (pasó del estado Starting a Runnin
 
   
 
-# Laboratorio 2: Crear una aplicación utilizando *IBM Cloud Continuous Delivery Toolchains*   
+# Laboratorio 2: Crear una aplicación utilizando IBM Cloud Continuous Delivery Toolchains
 
 * **Objetivo**:  En esta sección veremos cómo crear una aplicación utilizando IBM Cloud Continuous Delivery Toolchains a partir de un repositorio de GitHub ya existente. Utilizaremos como ejemplo una aplicación construida en NodeJS la cual utiliza una base de datos Cloudant NoSQL para organizar archivos.   
 
-#### Introducción:  
+#### Devops y Continuous Delivery Toolchains  
 
 ¿ Qué es **IBM Cloud Continuous Delivery Toolchains** ? ¿ En que contexto se utiliza ?  
 
@@ -987,6 +989,8 @@ Un posible esquema de funcionamiento de la herramienta:
  
 
 (ref: http://www.redbooks.ibm.com/redbooks/pdfs/sg248374.pdf) 
+
+### Despliegue de la aplicación
 
 Ahora si estamos listos para comenzar con la parte práctica del laboratorio. 
 
