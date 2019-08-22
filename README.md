@@ -1,4 +1,4 @@
-## Introducción a IBM Cloud - Dojo  
+## ------------------------------------      Dojo introducción a IBM Cloud     --------------------------------------------------------
 
 <p align="center">
   <img src="Images/logo.webp" width="600">   
