@@ -164,39 +164,65 @@ Los servicios de **Watson** permiten agregarle a su aplicación el poder de la i
 
 Los servicios de **Data & Analysis** ayudan a obtener datos de bases de datos en la nube integradas, construir aplicaciones basadas en datos y para el análisis de estos. 
 
-   
-
-Dentro de los **Developer services**, podemos encontrar las siguientes sub-categorías: 
-
-* **Integration services**:  
-
-    * **APIs**: Servicios para crear, administrar y correr APIs 
-
-    * **Integrate**: Servicios para acceder a los workloads que se ejecutan en el entorno local de la organización, como puede ser API Connect. 
-
- 
-
-* **Mobile**: Servicios que utilizan la infraestructura backend móvil para crear, monitorear y probar aplicaciones moviles 
-
-* **Internet of Things**: Servicios para comunicarse con dispositivos conectados, sensores y más 
-
-* **Functions**: Basado en Apache OpenWhisk, brinda servicios para desarrollar código liviano que se ejecuta bajo demanda. 
-
-* **Application Services**: Servicios como puede ser Blockchain, Event Streams, entre otros 
-
-* **DevOps**: Herramientas que ayudan a innovar creando aplicaciones de forma mas rápida y económica 
-
-* **Security**: Servicios para brindar seguridad a las aplicaciones 
-
-Como ultima categoría, dentro de los **Infrastructure services** podemos encontrar estas sub-categorías: 
-
-* **Computo**: bare-metal servers, virtual servers, serverless computing, contenedores 
+      
 
   
 
-* **Network**: content delivery network (CDN), virtual private network (VPN) tunnels and firewalls   
+Dentro de los **Developer services**, podemos encontrar las siguientes sub-categorías:  
 
- 
+  
+
+* **Integration services**:   
+
+  
+
+    * **APIs**: Servicios para crear, administrar y correr APIs  
+
+  
+
+    * **Integrate**: Servicios para acceder a los workloads que se ejecutan en el entorno local de la organización, como puede ser API Connect.  
+
+  
+
+  
+
+  
+
+* **Mobile**: Servicios que utilizan la infraestructura backend móvil para crear, monitorear y probar aplicaciones moviles  
+
+  
+
+* **Internet of Things**: Servicios para comunicarse con dispositivos conectados, sensores y más  
+
+  
+
+* **Functions**: Basado en Apache OpenWhisk, brinda servicios para desarrollar código liviano que se ejecuta bajo demanda.  
+
+  
+
+* **Application Services**: Servicios como puede ser Blockchain, Event Streams, entre otros  
+
+  
+
+* **DevOps**: Herramientas que ayudan a innovar creando aplicaciones de forma mas rápida y económica  
+
+  
+
+* **Security**: Servicios para brindar seguridad a las aplicaciones  
+
+  
+
+Como ultima categoría, dentro de los **Infrastructure services** podemos encontrar estas sub-categorías: 
+
+* **Computo**: bare-metal servers, virtual servers, serverless computing, contenedores  
+
+  
+
+  
+
+* **Network**: content delivery network (CDN), virtual private network (VPN) tunnels and firewalls    
+
+  
 
 * **Almacenamiento** 
 
@@ -508,7 +534,7 @@ Elemento             | Función
 
 ---------------------|----------------------------------------  
 
-**Resource summary** | Visualizar los recursos que estan siendo actualmente utilizados en esta cuenta  
+**Resource summary** | Visualizar los recursos que estan siendo actualmente utilizados en esta cuenta 
 
 **Planned maintenance** | Ver los eventos de mantenimiento planificados  
 
@@ -754,19 +780,7 @@ Corto video introductorio al desarrollo en la nube: https://www.youtube.com/watc
 
 # Laboratorio 1: Crear una aplicación a partir de un *application starter* 
 
-  
-
-   
-
-  
-
 En esta sección veremos cómo crear una aplicación utilizando Cloud Foundry. Este es una PaaS (plataforma como servicio), open source y gratuita. Cloud Foundry pone a disposición un entorno preparado para la ejecución de aplicaciones web.   
-
-  
-
-   
-
-  
 
 * Acceder al Catálogo de servicios de IBM Cloud y recorrerlo hasta llegar a la sección Cloud Foundry. 
 
@@ -874,7 +888,7 @@ Entonces, volviendo a la pregunta inicial, IBM Cloud Continuous Delivery provee 
 
 <p align="center">   
 
-  <img src="Images/deilverytoolchain.PNG" width="700">   
+  <img src="Images/deilverytoolchain.png" width="500">   
 
 </p>   
 
@@ -882,7 +896,7 @@ Un posible esquema de funcionamiento de la herramienta:
 
 <p align="center">   
 
-  <img src="Images/esquemafunctoolchain.PNG" width="700">   
+  <img src="Images/esquemafunctoolchain.PNG" width="500">   
 
 </p>   
 
@@ -924,7 +938,7 @@ Ahora si estamos listos para comenzar con la parte práctica del laboratorio.
 
   
 
-Luego debemos seleccionar la opción **Delivery Pipeline** de las herramientas de Integración   
+* Seleccionar la opción **Delivery Pipeline** de las herramientas de Integración   
 
   
 
@@ -1000,7 +1014,7 @@ Dentro de Delivery Pipeline debemos llenar los siguientes campos
 
   
 
-Si no contamos con una **IBM Cloud API key**, debemos hacer click en el botón Create la cual nos creará una API key automáticamente.   
+Si no contamos con una **IBM Cloud API key**,  hacer click en el botón **Create**. Esto creará una API key automáticamente.   
 
   
 
@@ -1162,13 +1176,15 @@ Una vez allí, seleccionamos el icono de **Delivery Pipeline** y una vez que fin
 
 Además de tener la interfaz web, los servicios de la nube se pueden manejar desde una terminal. La herramienta de IBM para realizar esta tarea es IBM CLI.  
 
-  
+Para Instalar la última versión de IBM Cloud CLI ejecutar los siguientes comandos: 
+
+En Mac y Linux: ``` curl -sL https://ibm.biz/idt-installer | bash ``` 
+
+En Windows: ``` [Net.ServicePointManager]::SecurityProtocol = "Tls12"; iex(New-Object Net.WebClient).DownloadString('https://ibm.biz/idt-win-installer') ``` 
+
+ 
 
 A continuación, se detallan los simples pasos que hay que seguir para desplegar una aplicación desde la terminal.   
-
-  
-
-   
 
   
 
