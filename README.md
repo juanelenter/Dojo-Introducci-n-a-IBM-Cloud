@@ -152,7 +152,7 @@ IBM Cloud ofrece servicios, tanto propios como de terceros, que pueden utilizars
 
  <p align="center">   
 
-   <img src="Images/services.png" width="700">  
+   <img src="Images/services.PNG" width="700">  
 
 </p>   
 
@@ -166,29 +166,29 @@ Los servicios de **Data & Analysis** ayudan a obtener datos de bases de datos en
 
    
 
-Dentro de los servicios para desarrollar, podemos encontrar las siguientes sub-categorías: 
+Dentro de los **Developer services**, podemos encontrar las siguientes sub-categorías: 
 
-Integration services:  
+* **Integration services**:  
 
-APIs: Servicios para crear, administrar y correr APIs 
+    * **APIs**: Servicios para crear, administrar y correr APIs 
 
-Integrate: Servicios para acceder a los workloads que se ejecutan en el entorno local de la organización, como puede ser API Connect. 
+    * **Integrate**: Servicios para acceder a los workloads que se ejecutan en el entorno local de la organización, como puede ser API Connect. 
 
  
 
-Mobile: Servicios que utilizan la infraestructura backend móvil para crear, monitorear y probar aplicaciones moviles 
+* **Mobile**: Servicios que utilizan la infraestructura backend móvil para crear, monitorear y probar aplicaciones moviles 
 
- Internet of Things: Servicios para comunicarse con dispositivos conectados, sensores y más 
+* **Internet of Things**: Servicios para comunicarse con dispositivos conectados, sensores y más 
 
-Functions: Basado en Apache OpenWhisk, brinda servicios para desarrollar código liviano que se ejecuta bajo demanda. 
+* **Functions**: Basado en Apache OpenWhisk, brinda servicios para desarrollar código liviano que se ejecuta bajo demanda. 
 
- Application Services: Servicios como puede ser Blockchain, Event Streams, entre otros 
+* **Application Services**: Servicios como puede ser Blockchain, Event Streams, entre otros 
 
- DevOps: Herramientas que ayudan a innovar creando aplicaciones de forma mas rápida y económica 
+* **DevOps**: Herramientas que ayudan a innovar creando aplicaciones de forma mas rápida y económica 
 
- Security: Servicios para brindar seguridad a las aplicaciones 
+* **Security**: Servicios para brindar seguridad a las aplicaciones 
 
-Como ultima categoría, dentro de los servicios de infraestructura podemos encontrar estas sub-categorías: 
+Como ultima categoría, dentro de los **Infrastructure services** podemos encontrar estas sub-categorías: 
 
 * **Computo**: bare-metal servers, virtual servers, serverless computing, contenedores 
 
