@@ -501,7 +501,7 @@ En Windows:
 
  
 
-### Desplegar una aplicación desde CLI 
+### Despliegue de la aplicación desde CLI 
 
 A continuación, se detallan los simples pasos que hay que seguir para desplegar una aplicación desde la terminal.   
 
