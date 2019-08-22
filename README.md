@@ -824,6 +824,8 @@ Utilizar Cloud Foundry tiene los siguientes beneficios:
 
  
 
+Comencemos con la creación de la aplicación. 
+
  
 
 * Acceder al Catálogo de servicios de IBM Cloud y recorrerlo hasta llegar a la sección Cloud Foundry. 
@@ -862,7 +864,7 @@ A modo de ejemplo utilizaremos Liberty for Java, pero puede elegir cualquier opc
 
   
 
-*Pulsar el botón Create, se desplegará un dashboard con información acerca de la aplicación.   
+* Pulsar el botón **Create**, se desplegará un dashboard con información acerca de la aplicación.   
 
   
 
@@ -910,7 +912,7 @@ Al finalizar el despliegue de la aplicación (pasó del estado Starting a Runnin
 
 ¿ Qué es **IBM Cloud Continuous Delivery Toolchains** ? ¿ En que contexto se utiliza ?  
 
-Para comprender este servicio se debe manejar el término *“DevOps”*.  
+Para comprender este servicio se debe manejar el concepto de *“DevOps”*.  
 
 El término *DevOps* proviene de fusionar las palabras “Development” y “Operations”. DevOps hace referencia a la unión de los equipos de Desarrollo y Operaciones para mantener el ciclo de vida de un programa, desde la escritura del código hasta el despliegue. En pocas palabras: 
 
@@ -1437,54 +1439,6 @@ A continuación, les brindamos algunos links para profundizar su conocimiento. T
   
 
   http://www.redbooks.ibm.com/redbooks/pdfs/sg248374.pdf 
-
- 
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-   
-
-  
-
-   
-
-  
-
-   
-
-  
-
-   
-
-  
-
-  
-
-  
 
  
 
