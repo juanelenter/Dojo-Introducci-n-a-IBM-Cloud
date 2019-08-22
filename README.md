@@ -934,7 +934,7 @@ Entonces, volviendo a la pregunta inicial, IBM Cloud Continuous Delivery provee 
 
 <p align="center">   
 
-  <img src="Images/delIverytoolchain.PNG" width="500">   
+  <img src="Images/deliverytoolchain.PNG" width="500">   
 
 </p>   
 
@@ -1439,6 +1439,54 @@ A continuación, les brindamos algunos links para profundizar su conocimiento. T
   
 
   http://www.redbooks.ibm.com/redbooks/pdfs/sg248374.pdf 
+
+ 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+   
+
+  
+
+   
+
+  
+
+   
+
+  
+
+   
+
+  
+
+  
+
+  
 
  
 
