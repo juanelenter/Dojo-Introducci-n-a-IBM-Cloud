@@ -67,7 +67,7 @@ En 2014, IBM lanzó Bluemix (hoy IBM Cloud): una plataforma que ofrece servicios
 
 
 <p align="center">   
-   <img src="Images/modelos_de_cloud.png" width="400">   
+   <img src="Images/modelos_de_cloud.png" width="500">   
  </p>   
 
 
@@ -84,7 +84,7 @@ Si bien la computación en la nube tiene varias desventajas cómo la extrema cen
 
 ### ¿Qué se puede crear en IBM Cloud? 
 
-IBM Cloud te permite crear los siguientes componentes: 
+IBM Cloud permite crear los siguientes componentes: 
 
  **Aplicaciones**, es decir programas  como aplicaciones web y móviles que los desarrolladores crean en varios entornos (ej: Cloud Foundry). 
 
@@ -101,12 +101,12 @@ IBM Cloud ofrece servicios, tanto propios como de terceros, que pueden utilizars
  
 ### **Watson**  
 
-Permiten agregarle a su aplicación el poder de la inteligencia artificial (AI) a través de APIs de reconocimiento del habla, visual y procesamiento del lenguaje natural. 
+Permite agregarle a su aplicación el poder de la inteligencia artificial (AI) a través de APIs de reconocimiento del habla, visual y procesamiento del lenguaje natural. 
 
 
 ### **Data & Analysis**  
 
-Ayudan a obtener datos de bases de datos en la nube integradas, construir aplicaciones basadas en datos y para el análisis de estos. 
+Ayuda a obtener datos de bases de datos en la nube integradas, construir aplicaciones basadas en datos y para el análisis de estos. 
 
 ### **Developer services** 
 
@@ -151,19 +151,19 @@ Actualmente IBM Cloud se encuentra en 18 zonas en 6 regiones diferentes situadas
 
 Estas son algunas recomendaciones a tener en cuenta: 
 
-Para una baja latencia de la aplicación, es recomendable seleccionar la región más cercana a sus usuarios. 
+- Para una baja latencia de la aplicación, es recomendable seleccionar la región más cercana a sus usuarios. 
 
- Para cumplir con los requisitos de seguridad de datos de ciertos países, seleccione la región donde debe almacenar los datos de la aplicación. 
+- Para cumplir con los requisitos de seguridad de datos de ciertos países, seleccione la región donde debe almacenar los datos de la aplicación. 
 
-Para lograr una alta disponibilidad, se recomienda seleccionar múltiples regiones. Si su aplicación falla en una región, todavía está disponible en otra región. 
+- Para lograr una alta disponibilidad, se recomienda seleccionar múltiples regiones. Si su aplicación falla en una región, todavía está disponible en otra región. 
 
 **Nota**: No todos los servicios de IBM Cloud están disponibles en todas las regiones. 
 
 
 **Cómo cambiar de región** 
 
-Por defecto, IBM Cloud te asigna la región más cercana a tu ubicación. Para cambiar la región hacemos uso de la herramienta CLI (Command Line Interface) con los siguientes tres comandos:  
-
+Por defecto, IBM Cloud le asigna la región más cercana a su ubicación. Para cambiar la región hacemos uso de la herramienta CLI (Command Line Interface), ejecutando los siguientes comandos:  
+(Es necesario haber descargado la herramienta CLI, para ver cómo instalarla dirigirse a [CLI](#command-line-interface-cli)
 Comando que muestra tu actual región 
 
 ``` 
@@ -200,7 +200,7 @@ Las clouds flexibilizan, automatizan y simplifican una enorme cantidad de proced
 
 Antes de empezar a utilizar los servicios que ofrece IBM Cloud es necesario abrir una cuenta.    
 
-### Creación de una cuenta de IBM Cloud  
+### Creación de una cuenta en IBM Cloud  
 
 Por defecto, IBM Cloud crea una cuenta **"Lite"**. Este tipo de cuenta no tiene costo y te permite utilizar la mayoria de los servicios de la nube, con algunas limitaciones. Más adelante veremos los diferentes [tipos de cuentas].  
 
@@ -336,20 +336,20 @@ Comencemos con la creación de la aplicación.
 
 A modo de ejemplo utilizaremos Liberty for Java, pero puede elegir cualquier opción.   
 
-* Seleccionar una opción debería ver el siguiente formulario: 
+* Seleccione una opción, debería ver el siguiente formulario: 
 
 <p align="center">   
    <img src="Images/CreateCloudFoundryApp.PNG" width="700">   
  </p>   
 
 
-* Elija un nombre para su aplicación y luego pulse "Create". (El host name debe ser único, se recomienda agregarle al nombre de la aplicación tus iniciales o el nombre de la empresa acompañado de la fecha de creación de esta.) 
+* Elija un nombre para su aplicación y luego pulse **"Create"**. (El host name debe ser único, se recomienda agregarle al nombre de la aplicación sus iniciales o el nombre de la empresa acompañado de la fecha de creación de esta.) 
 
 <p align="center">   
    <img src="Images/CreateCloudFoundryApp.PNG" width="700">   
  </p>   
 
-* Pulsar el botón **Create**, se desplegará un dashboard con información acerca de la aplicación.   
+* Se desplegará un dashboard con información acerca de la aplicación.   
 
   <p align="center">   
    <img src="Images/runningcf.png" width="700">   
@@ -372,6 +372,8 @@ Al finalizar el despliegue de la aplicación (pasó del estado Starting a Runnin
 <p align="center">   
    <img src="Images/HelloWorld.PNG" width="700">   
 </p>   
+
+Por último, desde **"Resource List"** podrá borrar la aplicación, haciendo lugar para el Laboratorio 2.
 
 # Laboratorio 2: Crear una aplicación utilizando IBM Cloud Continuous Delivery Toolchains
 
@@ -481,6 +483,8 @@ Una vez allí, seleccionamos el icono de **Delivery Pipeline** y una vez que fin
  <img src="Images/aplicacion.PNG" width="700">  
 </p>   
 
+Al igual que en el Laboratorio 1 es conveniente eliminar el servicio ya que no lo vamos a utilizar.
+
 # Laboratorio 3: Manejar un servicio a través de IBM CLI 
 
  ### Command Line Interface (CLI) 
@@ -520,7 +524,7 @@ ibmcloud login -a https://api.ng.bluemix.net
 ``` 
 
 
-* Cree un instancia del servicio **"Cloudant Database"** con el siguiente comando 
+* Cree un instancia del servicio **"Cloudant Database"** con el siguiente comando. (Cloudant es un servicio de base de datos distribuida no relacional). 
   
 ``` 
 
@@ -528,7 +532,7 @@ imbcloud service offerings
 
 ``` 
 
-* Cree una instancia del **"Cloudant NoSQL database"** con el siguiente comando  
+* Cree una instancia de **"Cloudant NoSQL database"** con el siguiente comando  
 
 ``` 
 
