@@ -58,6 +58,8 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   - [¿Qué es IBM Cloud?](/pages/1#) 
 
+  - [¿Qué se puede crear en IBM Cloud?](/pages/1#) 
+
   - [Categorías de servicios](/pages/1#) 
 
   - [Regiones](/pages/1#) 
@@ -74,7 +76,15 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
 * [**Laboratorio 1: Crear una aplicación a partir de un application starter**](/pages/3#) 
 
+   - [Introducción a Cloud Foundry](/pages/3#) 
+
+   - [Creación de la aplicación](/pages/3#) 
+
 * [**Laboratorio 2: Crear una aplicación utilizando IBM Cloud Continuous Delivery Toolchains**](/pages/4#) 
+
+   - [DevOps y Continous Delivery Toolchains](/pages/4#) 
+
+   - [Despliegue de la aplicación](/pages/4#) 
 
 * [**Laboratorio 3: Manejar un servicio a través de IBM Command Line Interface**](/pages/5#) 
 
@@ -136,7 +146,7 @@ Además, en estos tres tipos de utilización de la nube, el proveedor efectua un
 
   <p align="center">   
 
-   <img src="Images/responsabilities.PNG" width="400">   
+   <img src="Images/responsabilities.PNG" width="600">   
 
  </p>   
 
@@ -144,7 +154,15 @@ Además, en estos tres tipos de utilización de la nube, el proveedor efectua un
 
 Si bien la computación en la nube tiene varias desventajas cómo la extrema centralización de los recursos y la dependencia de la conexión a internet, estas limitantes son ampliamente superadas por la escalabilidad, seguridad, fiabilidad y flexibilidad que ofrece esta plataforma.    
 
-  
+ 
+
+### ¿Qué se puede crear en IBM Cloud? 
+
+IBM Cloud te permite crear los siguientes componentes: 
+
+ **Aplicaciones**, es decir programas que los desarrolladores crean en el entorno de Cloud Foundry, por ejemplo aplicaciones web y móviles 
+
+**Servicios**, es decir una extensión de una funcionalidad “lista para ser utilizada” alojada en IBM Cloud 
 
 ### Categorías de servicios 
 
@@ -236,11 +254,7 @@ Como ultima categoría, dentro de los **Infrastructure services** podemos encont
 
      ### Regiones 
 
-Actualmente IBM Cloud se encuentra en 18 zonas en 6 regiones diferentes situadas en Estados Unidos (Dallas y Washington, DC), Alemania, Reino Unido, Japon y Australia. 
-
- 
-
-Al desplegar tu aplicación o infraestructura en la nube de IBM, es importante tener en cuenta estas regiones. 
+Actualmente IBM Cloud se encuentra en 18 zonas en 6 regiones diferentes situadas en Estados Unidos (Dallas y Washington, DC), Alemania, Reino Unido, Japon y Australia. Al desplegar tu aplicación o infraestructura en la nube de IBM, es importante tener en cuenta estas regiones. 
 
 Estas son algunas recomendaciones a tener en cuenta: 
 
@@ -783,6 +797,16 @@ Corto video introductorio al desarrollo en la nube: https://www.youtube.com/watc
 # Laboratorio 1: Crear una aplicación a partir de un *application starter* 
 
 En esta sección veremos cómo crear una aplicación utilizando Cloud Foundry. Este es una PaaS (plataforma como servicio), open source y gratuita. Cloud Foundry pone a disposición un entorno preparado para la ejecución de aplicaciones web.   
+
+ 
+
+<p align="center">   
+
+   <img src="Images/cfexplicacion.PNG" width="600">   
+
+ </p>   
+
+ 
 
 * Acceder al Catálogo de servicios de IBM Cloud y recorrerlo hasta llegar a la sección Cloud Foundry. 
 
