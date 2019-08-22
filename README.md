@@ -76,7 +76,7 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   
 
-* [**Laboratorio 0: Descubriendo IBM Cloud**](#laboratorio-0:- descubriendo-ibm-cloud)  
+* [**Laboratorio 0: Descubriendo IBM Cloud**](#laboratorio-0- descubriendo-ibm-cloud)  
 
   
 
@@ -96,7 +96,7 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   
 
-* [**Laboratorio 1: Crear una aplicación a partir de un application starter**]()  
+* [**Laboratorio 1: Crear una aplicación a partir de un application starter**](laboratorio-1-crear-una-aplicación-a-partir-de-un-application-starter)  
 
   
 
@@ -112,7 +112,7 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   
 
-   - [DevOps y Continous Delivery Toolchains](#devops-y-continous-delivery-toolchains)  
+   - [DevOps y Continuous Delivery Toolchains](#devops-y-contiunous-delivery-toolchains)  
 
   
 
@@ -124,11 +124,11 @@ Utilice el menú de aquí debajo para navegar por el dojo, ¡Éxitos!
 
   
 
-- [Command Line Interface (CLI)](#command-line-interface-(cli))  
+   - [Command Line Interface (CLI)](#command-line-interface-cli)  
 
   
 
-   - [Despliegue de la aplicación](#despliegue-de-la-aplicación)  
+   - [Despliegue de la aplicación](#despliegue-de-la-aplicación-con-cli)  
 
   
 
