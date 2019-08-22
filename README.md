@@ -160,7 +160,7 @@ Si bien la computación en la nube tiene varias desventajas cómo la extrema cen
 
 IBM Cloud te permite crear los siguientes componentes: 
 
- **Aplicaciones**, es decir programas que los desarrolladores crean en varios entornos (ej: Cloud Foundry) por ejemplo aplicaciones web y móviles. 
+ **Aplicaciones**, es decir programas  como aplicaciones web y móviles que los desarrolladores crean en varios entornos (ej: Cloud Foundry). 
 
 **Servicios**, es decir una extensión de una funcionalidad “lista para ser utilizada” alojada en IBM Cloud. 
 
@@ -178,17 +178,23 @@ IBM Cloud ofrece servicios, tanto propios como de terceros, que pueden utilizars
 
  
 
-#### **Watson** permiten agregarle a su aplicación el poder de la inteligencia artificial (AI) a través de APIs de reconocimiento del habla, visual y procesamiento del lenguaje natural. 
+### **Watson**  
+
+Permiten agregarle a su aplicación el poder de la inteligencia artificial (AI) a través de APIs de reconocimiento del habla, visual y procesamiento del lenguaje natural. 
 
  
 
-#### **Data & Analysis** ayudan a obtener datos de bases de datos en la nube integradas, construir aplicaciones basadas en datos y para el análisis de estos. 
+### **Data & Analysis**  
+
+Ayudan a obtener datos de bases de datos en la nube integradas, construir aplicaciones basadas en datos y para el análisis de estos. 
 
       
 
   
 
-#### **Developer services**, podemos encontrar las siguientes sub-categorías:  
+### **Developer services** 
+
+Podemos encontrar las siguientes sub-categorías:  
 
   
 
@@ -232,7 +238,9 @@ IBM Cloud ofrece servicios, tanto propios como de terceros, que pueden utilizars
 
   
 
-#### **Infrastructure services** podemos encontrar estas sub-categorías: 
+### **Infrastructure services**  
+
+Podemos encontrar estas sub-categorías: 
 
 * **Computo**: bare-metal servers, virtual servers, serverless computing, contenedores  
 
