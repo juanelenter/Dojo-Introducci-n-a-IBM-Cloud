@@ -147,7 +147,7 @@ Podemos encontrar estas sub-categorías:
 
 * **Seguridad**:  Servicios de seguimiento de actividad e identidad  
 
-     ### Regiones 
+### Regiones 
 
 Actualmente IBM Cloud se encuentra en 18 zonas en 6 regiones diferentes situadas en Estados Unidos (Dallas y Washington, DC), Alemania, Reino Unido, Japon y Australia. Al desplegar tu aplicación o infraestructura en la nube de IBM, es importante tener en cuenta estas regiones. 
 
@@ -305,18 +305,16 @@ La pagina cuenta con un **cost estimator**, el cual se encuentra en la barra del
 ### Grupos 
 Los grupos son una forma de organizar los recursos de su cuenta. Esta forma de organización permite rápidamente la repartición de accesos y roles a los distintos recursos. 
 <p align="center">   
-  <img src="grupos.png" width="700">   
+  <img src="grupos.PNG" width="700">   
 </p>  
 
 Cuando cree un servicio, podrá indicar a grupo pertence dicho servicio.
 <p align="center">   
-  <img src="grupos.png" width="700">   
+  <img src="grupo2.PNG" width="700">   
 </p>  
 
 Un pequeño resumen de lo que vimos hasta ahora: https://www.youtube.com/watch?v=VXqbRNwXC2A.   
-<p align="center">   
-  <img src="grupos2.png" width="700">   
-</p> 
+
  
 ### **IMPORTANTE**: Los siguientes laboratorios son guías detalladas: un paso a paso de algunas funcionalidades simples disponibles en IBM Cloud. Es de vital importancia que **NO** siga ciegamente las instrucciones. Salga del camino, explore desviaciones, equivóquese, borre todo, vuelva a comenzar y vaya hasta el fondo en los conceptos.    
 
