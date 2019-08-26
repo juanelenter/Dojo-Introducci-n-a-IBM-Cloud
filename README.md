@@ -310,7 +310,7 @@ Los grupos son una forma de organizar los recursos de su cuenta. Esta forma de o
 
 Cuando cree un servicio, podrá indicar a grupo pertence dicho servicio.
 <p align="center">   
-  <img src="Images/grupo2.png" width="700">   
+  <img src="Images/grupos2.png" width="700">   
 </p>  
 
 Un pequeño resumen de lo que vimos hasta ahora: https://www.youtube.com/watch?v=VXqbRNwXC2A.   
