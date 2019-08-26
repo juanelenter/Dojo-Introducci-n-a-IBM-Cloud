@@ -34,6 +34,8 @@ En el laboratorio 0 se hará un “reconocimiento de terreno” para comenzar a 
   - [Menú superior](#menú-superior)   
 
   - [Tipos de cuenta](#tipos-de-cuenta)  
+  
+  - [Grupos](#grupos)
 
 
 * [**Laboratorio 1: Crear una aplicación a partir de un application starter**](#laboratorio-1-crear-una-aplicación-a-partir-de-un-application-starter) 
@@ -300,8 +302,21 @@ Allí podrá encontrar las dos opciones y elegir la que desee.
 
 La pagina cuenta con un **cost estimator**, el cual se encuentra en la barra del menú superior. Esta opción permite seleccionar, desde el catálogo, los servicios que estimas que utilizarás para así poder pagar de acuerdo al uso, en el caso de una cuenta **Pago según uso**.  
 
-Un pequeño resumen de lo que vimos hasta ahora: https://www.youtube.com/watch?v=VXqbRNwXC2A.   
+### Grupos 
+Los grupos son una forma de organizar los recursos de su cuenta. Esta forma de organización permite rápidamente la repartición de accesos y roles a los distintos recursos. 
+<p align="center">   
+  <img src="grupos.png" width="700">   
+</p>  
 
+Cuando cree un servicio, podrá indicar a grupo pertence dicho servicio.
+<p align="center">   
+  <img src="grupos.png" width="700">   
+</p>  
+
+Un pequeño resumen de lo que vimos hasta ahora: https://www.youtube.com/watch?v=VXqbRNwXC2A.   
+<p align="center">   
+  <img src="grupos2.png" width="700">   
+</p> 
  
 ### **IMPORTANTE**: Los siguientes laboratorios son guías detalladas: un paso a paso de algunas funcionalidades simples disponibles en IBM Cloud. Es de vital importancia que **NO** siga ciegamente las instrucciones. Salga del camino, explore desviaciones, equivóquese, borre todo, vuelva a comenzar y vaya hasta el fondo en los conceptos.    
 
