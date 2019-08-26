@@ -305,12 +305,12 @@ La pagina cuenta con un **cost estimator**, el cual se encuentra en la barra del
 ### Grupos 
 Los grupos son una forma de organizar los recursos de su cuenta. Esta forma de organización permite rápidamente la repartición de accesos y roles a los distintos recursos. 
 <p align="center">   
-  <img src="grupos.PNG" width="700">   
+  <img src="iMAGES/grupos.png" width="700">   
 </p>  
 
 Cuando cree un servicio, podrá indicar a grupo pertence dicho servicio.
 <p align="center">   
-  <img src="grupo2.PNG" width="700">   
+  <img src="iMAGES/grupo2.png" width="700">   
 </p>  
 
 Un pequeño resumen de lo que vimos hasta ahora: https://www.youtube.com/watch?v=VXqbRNwXC2A.   
