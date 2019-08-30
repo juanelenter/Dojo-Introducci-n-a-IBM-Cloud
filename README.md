@@ -204,7 +204,7 @@ Antes de empezar a utilizar los servicios que ofrece IBM Cloud es necesario abri
 
 ### Creación de una cuenta en IBM Cloud  
 
-Por defecto, IBM Cloud crea una cuenta **"Lite"**. Este tipo de cuenta no tiene costo y te permite utilizar la mayoria de los servicios de la nube, con algunas limitaciones. Más adelante veremos los diferentes [tipos de cuentas].  
+Por defecto, IBM Cloud crea una cuenta **"Lite"**. Este tipo de cuenta no tiene costo y te permite utilizar la mayoria de los servicios de la nube, con algunas limitaciones. Más adelante veremos los diferentes [tipos de cuentas](#tipos-de-cuenta).  
 
   
 La creación de la cuenta es un procedimiento muy sencillo:  
